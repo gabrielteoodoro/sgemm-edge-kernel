@@ -83,7 +83,7 @@ void sgemm_tiny_kernel(const float* A, const float* B, float* C) {
 
 /* 
 int main() {
-    printf("J.A.R.V.I.S. Sovereign Kernel | Matrix Size: %dx%d\n", N, N);
+    printf("SGEMM Edge Kernel | Matrix Size: %dx%d\n", N, N);
     
     // Aligned allocation: 32-byte boundary required for _mm256_load_ps
     float* A = (float*)_mm_malloc(N * N * sizeof(float), 32);

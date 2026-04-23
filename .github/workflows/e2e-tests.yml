@@ -1,4 +1,4 @@
-name: Sovereign E2E Pipeline
+name: Kernel CI — Build & Test
 
 on:
   push:
